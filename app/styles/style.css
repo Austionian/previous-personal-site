@@ -1,29 +1,104 @@
 h1 {
   font-family: 'Barrio', cursive;
-  text-align: center;
-  position: absolute;
-    top:  50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+  font-weight: 400;
+  color: #fff;
 }
 
-h1::after {
-  content: "</>";
-  color: blue;
+.social {
+  height: 60px;
 }
 
-.footer ul {
-  background-color: rgba(202, 145, 145, .5);
-  padding-right: 15px;
-  text-align: right;
-  list-style: none;
-}
-
-.footer li {
-  font-family: 'Lobster', cursive;
+.social ul {
   display: inline;
+  float: right;
+  padding-right: 50px;
 }
 
-#author {
-  color: rgba(176, 63, 63, .75);
+.social li {
+  display: inline;
+  padding: 5px 10px;
 }
+
+.intro {
+  background-color: #B22934;
+}
+
+.introduction {
+  padding-top: 25px;
+  padding-left: 150px;
+}
+
+.image img {
+  padding-left: 300px;
+  max-height: 500px;
+  height: auto;
+  width: auto;
+}
+
+.image h1 {
+  float: right;
+  padding-top: 175px;
+  padding-right: 200px;
+  margin-bottom: 0px;
+}
+
+.smaller {
+  font-size: 25px;
+  margin: 0px;
+}
+
+.writing {
+  background-color: #FF5462;
+  margin: 0px;
+  height: 75px;
+}
+
+.writing h1 {
+  padding-top: 25px;
+  padding-left: 150px;
+}
+
+.experience {
+  background-color: #2F96CC;
+  margin: 0px;
+  height: 75px;
+}
+
+.experience h1 {
+  text-align: right;
+  padding-top: 25px;
+  padding-right: 150px;
+}
+
+.future {
+  background-color: #3286B2;
+  margin: 0px;
+  height: 75px;
+}
+
+.future h1 {
+  padding-top: 25px;
+  padding-left: 150px;
+}
+
+.contact {
+  background-color: #FFFB6E;
+  margin: 0px;
+  height: 75px;
+}
+
+.contact h1 {
+  text-align: right;
+  padding-top: 25px;
+  padding-right: 150px;
+  color: black;
+}
+
+footer p{
+  font-family: 'Barrio', cursive;
+  text-align: right;
+  height: 34px;
+}
+
+
+/*HEXes for later FF5462 FFFB6E 2F96CC 3286B2*/
