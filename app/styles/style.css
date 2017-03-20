@@ -1,31 +1,93 @@
-h1 {
+/*html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}*/
+
+h1, h2, h3, h4, h5, p {
   font-family: 'Barrio', cursive;
   font-weight: 400;
   color: #fff;
 }
 
-.social {
-  height: 60px;
+.alt-header {
+  color: #000;
 }
 
-.social ul {
+.container {
+  height: 504px;
+  margin-bottom: 60px;
+}
+
+.evenHeader {
+  padding-top: 60px;
+  padding-left: 150px;
+  padding-bottom: 35px;
+}
+
+.oddHeader {
+  text-align: right;
+  padding-top: 60px;
+  padding-right: 150px;
+  padding-bottom: 35px;
+}
+
+.logos {
+  max-height: 125px;
+  padding: 10px 15px;
+}
+
+.exLogos {
+  border: 1px solid rgba(10, 10, 10, 0.0);
+  transition: transform 100ms;
+}
+
+.exLogos:hover {
+  border: 1px solid rgba(10, 10, 10, .2);
+  box-shadow: 0 2px 2px 0 #d5dadd;
+  position: relative;
+  background-color: rgba(225, 225, 225, .2);
+  z-index: 2;
+  transform: scale(1.125);
+}
+
+.row1 {
+  padding-left: 55px;
+  padding-bottom: 20px;
+}
+
+.row2 {
+  padding-left: 160px;
+}
+
+.nav {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
+  z-index: 10;
+  border-bottom: 1px solid black;
+}
+
+.nav ul {
   display: inline;
   float: right;
   padding-right: 50px;
 }
 
-.social li {
+.nav li {
   display: inline;
   padding: 5px 10px;
 }
 
 .intro {
   background-color: #B22934;
-}
-
-.introduction {
-  padding-top: 25px;
-  padding-left: 150px;
+  padding-top: 60px;
+  margin-bottom: 60px;
+  display: -webkit-box;
 }
 
 .image img {
@@ -37,9 +99,8 @@ h1 {
 
 .image h1 {
   float: right;
-  padding-top: 175px;
-  padding-right: 200px;
-  margin-bottom: 0px;
+  padding-top: 50px;
+  padding-left: 60px;
 }
 
 .smaller {
@@ -49,56 +110,104 @@ h1 {
 
 .writing {
   background-color: #FF5462;
-  margin: 0px;
-  height: 75px;
+  height: 504px;
+  margin-bottom: 60px;
 }
 
-.writing h1 {
-  padding-top: 25px;
-  padding-left: 150px;
+.career {
+  background-color: #F18AFF;
+}
+
+.career h2 {
+  padding-left: 75px;
+  float: left;
 }
 
 .experience {
-  background-color: #2F96CC;
-  margin: 0px;
-  height: 75px;
+  background-color: rgba(110, 204, 225, 0.28);
+  padding-left: 20px;
 }
 
-.experience h1 {
-  text-align: right;
-  padding-top: 25px;
-  padding-right: 150px;
-}
-
-.future {
+.personal {
   background-color: #3286B2;
-  margin: 0px;
-  height: 75px;
-}
-
-.future h1 {
-  padding-top: 25px;
-  padding-left: 150px;
 }
 
 .contact {
   background-color: #FFFB6E;
-  margin: 0px;
-  height: 75px;
 }
 
 .contact h1 {
-  text-align: right;
-  padding-top: 25px;
-  padding-right: 150px;
-  color: black;
+  padding-bottom: 0px;
+}
+
+.contactContent h2 {
+  font-family: 'Barrio', cursive;
+  font-weight: 400;
+  padding-left: 310px;
+  display: inline;
+  float: left;
+}
+
+.contactContent h1 {
+  float: left;
+  padding-top: 50px;
+  padding-left: 120px;
+  font-size: 40px;
+}
+
+.contactContent a {
+  text-decoration: none;
+}
+
+.funFact {
+  background-color: #B2AF3B;
 }
 
 footer p{
   font-family: 'Barrio', cursive;
+  padding-right: 15px;
   text-align: right;
   height: 34px;
+  color: #000;
 }
 
+#hi {
+  padding-top: 20px;
+  font-size: 60px;
+  height: 40px;
+}
 
-/*HEXes for later FF5462 FFFB6E 2F96CC 3286B2*/
+#prose {
+  max-height: 250px;
+  padding-left: 175px;
+  width: auto;
+}
+
+#code {
+  max-height: 250px;
+  padding-left: 54px;
+  width: auto;
+}
+
+#mixpanel {
+  padding-bottom: 60px;
+  max-width: 125px;
+  padding-top: 45px;
+}
+
+#email {
+  max-height: 275px;
+  padding-left: 200px;
+  float: left;
+}
+
+#resume {
+  float: left;
+  padding-left: 390px;
+}
+
+#resumeImage {
+  max-height: 275px;
+  float: left;
+  padding-left: 150px;
+}

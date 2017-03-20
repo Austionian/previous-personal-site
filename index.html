@@ -9,7 +9,7 @@
   </head>
   <body>
     <header>
-      <div class="social">
+      <div class="nav">
         <ul>
           <li><a href="mailto:arooks@hawaii.edu" target="_blank"><img src="app/assets/images/icons32/email.png"></a></li>
           <li><a href="https://www.instagram.com/r00kstar/" target="_blank"><img src="app/assets/images/icons32/instagram.png"></a></li>
@@ -21,35 +21,81 @@
     </header>
 
     <div class="intro">
-
-      <div class="introduction">
-        <h1>hi–i'm austin</h1>
-      </div>
-
       <div class="image">
         <img src="app/assets/images/meAndWardHalfSize.png">
-        <h1>and this is me with<br>Ward Cunningham<br><span class="smaller">(  inventor of the wiki  )<span></h1>
+      </div>
+      <div class="text">
+        <h1 id="hi">Hi–I'm Austin</h1>
+        <span class="image"><h1>and this is me with<br>Ward Cunningham<br><span class="smaller">(  inventor of the wiki  )</span></h1></span>
       </div>
     </div>
 
-    <div class="writing">
-      <h1>I like to write both code and prose</h1>
+    <div class="writing container">
+      <h1 class="evenHeader">I like to write both prose and code</h1>
+      <img id="prose" src="app/assets/images/prose.gif"><img id="code" src="app/assets/images/code.gif">
     </div>
 
-    <div class="experience">
-      <h1>I have experince in both tech, product, and writing</h1>
+    <div class="career container">
+      <h1 class="oddHeader alt-header">Currently, I'm an independent software developer.</h1>
+      <h2 class="alt-header">Previously, I worked full-time as Product Sherpa on a product discovery app called</h2>
+      <img class="logos" src="app/assets/images/cardboard.png">
+      <h1 class="alt-header">Looking for a full-time home.</h1>
     </div>
 
-    <div class="future">
-      <h1>I am looking for an opportunity to make use of all my skills</h1>
+    <div class="experience container">
+
+      <h1 class="evenHeader alt-header">I have experince in these types of tech and tools</h1>
+
+      <div class="techLogos">
+        <div class="row1">
+          <img class="logos exLogos" src="app/assets/images/tech/html5.png">
+          <img class="logos exLogos" src="app/assets/images/tech/css3.png">
+          <img class="logos exLogos" src="app/assets/images/tech/javascript.png">
+          <img class="logos exLogos" src="app/assets/images/tech/angular.png">
+          <img class="logos exLogos" src="app/assets/images/tech/jquery.png">
+          <img class="logos exLogos" src="app/assets/images/tech/sass.png">
+          <img class="logos exLogos" src="app/assets/images/tech/git.png">
+        </div>
+        <div class="row2">
+          <img class="logos exLogos" src="app/assets/images/tech/nightwatch.png">
+          <img class="logos exLogos" src="app/assets/images/tech/sql.png">
+          <img class="logos exLogos" src="app/assets/images/tech/analytics.png">
+          <img class="logos exLogos" src="app/assets/images/tech/jira.png">
+          <img class="logos exLogos" src="app/assets/images/tech/Octocat.png">
+          <img class="logos exLogos" id="mixpanel" src="app/assets/images/tech/mixpanel.svg">
+        </div>
+      </div>
     </div>
 
-    <div class="contact">
-      <h1>If I sound like a good fit, reach out.</h1>
+    <div class="personal container">
+      <h1 class="evenHeader">I am resourcefull, self-starter, learning-directed, agile</h1>
+    </div>
+
+    <div class="contact container">
+      <h1 class="evenHeader alt-header">If I sound like a good fit, reach out.</h1>
+      <div class="contactContent">
+        <h2 class="alt-header"><a href="mailto:arooks@hawaii.edu?subject=Yo,%20Austin" target="_blank">Email me</a></h2>
+        <h2 class="alt-header" id="resume"><a href="#">Check out my resume</a></h2>
+        <a href="mailto:arooks@hawaii.edu?subject=Yo,%20Austin" title="Email me" target="_blank"><img id="email" src="app/assets/images/emailMe.gif" alt="email me"></a>
+        <h1 class="alt-header">OR</h1>
+        <a href="#"><img id="resumeImage" src="app/assets/images/resume.png"></a>
+      </div>
     </div>
 
     <footer>
         <p>&#169; 2017 austin rooks. Icons made by <a href="http://www.freepik.com/" target="_blank">Freepik</a> and <a href="http://www.flaticon.com/authors/wissawa-khamsriwath">Wissawa Khamsriwath</a> from <a href="www.flaticon.com">www.flaticon.com</a></p>
     </footer>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
+    <script>
+    $('.smooth').on('click', function() {
+        $.smoothScroll({
+            scrollElement: $('body'),
+            scrollTarget: '#' + this.id
+        });
+
+        return false;
+    });
+    </script> -->
   </body>
 </html>
