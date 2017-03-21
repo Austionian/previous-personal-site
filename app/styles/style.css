@@ -18,20 +18,20 @@ h3, h4, h5 {
 }
 
 a {
+  color: rgba(64,72,149,.9);
   text-decoration: none;
 }
 
 a:focus, a:hover {
-  border-bottom: 1px solid;
+  color: rgba(0, 0, 0, .9);
 }
 
 .alt-header {
-  color: #000;
+  color: rgba(0, 0, 0, 0.87);
 }
 
 .container {
-  height: 504px;
-  margin-bottom: 60px;
+  height: 550px;
 }
 
 .evenHeader {
@@ -96,16 +96,19 @@ a:focus, a:hover {
   padding: 5px 10px;
 }
 
+.nav img {
+  max-height: 32px;
+}
+
 .intro {
-  background-color: #B22934;
+  background-color: #9B26AF;
   padding-top: 60px;
-  margin-bottom: 60px;
   display: -webkit-box;
 }
 
 .image img {
   padding-left: 300px;
-  max-height: 500px;
+  max-height: 535px;
   height: auto;
   width: auto;
 }
@@ -123,8 +126,6 @@ a:focus, a:hover {
 
 .writing {
   background-color: #FF5462;
-  height: 504px;
-  margin-bottom: 60px;
 }
 
 .career {
@@ -147,6 +148,33 @@ a:focus, a:hover {
 
 .previousExp {
   background-color: #8DBFB1;
+  margin-top: 21.44px;
+}
+
+.column img {
+  max-height: 150px;
+  padding-left: 50px;
+}
+
+.head {
+  padding-bottom: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+.column {
+  float: left;
+  padding-left: 50px;
+  width: 250px;
+  text-align: center;
+}
+
+.column h1 {
+  padding-left: 25px;
+}
+
+.column h2 {
+  padding-left: 25px;
 }
 
 .experience {
@@ -156,6 +184,11 @@ a:focus, a:hover {
 
 .personal {
   background-color: #3286B2;
+}
+
+.personal img {
+  max-height: 150px;
+  padding-left: 50px;
 }
 
 .contact {
@@ -222,6 +255,16 @@ footer p{
   padding-top: 45px;
 }
 
+#sherpa {
+  float: left;
+  width: 900px;
+}
+
+#cardboard {
+  float: left;
+  padding-top: 70px;
+}
+
 #email {
   max-height: 275px;
   padding-left: 200px;
@@ -237,4 +280,9 @@ footer p{
   max-height: 275px;
   float: left;
   padding-left: 150px;
+}
+
+#e-learning {
+  max-height: 200px;
+  float: right;
 }
