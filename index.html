@@ -5,7 +5,7 @@
     <title>austinrooks</title>
     <link href="http://vignette2.wikia.nocookie.net/godzilla/images/2/24/GXMG_-_Godzilla_Head_Shot.jpg/revision/latest?cb=20140501190406" rel="shortcut icon">
     <link href="app/styles/style.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barrio|Raleway" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -36,15 +36,28 @@
     </div>
 
     <div class="career container">
-      <h1 class="oddHeader alt-header">Currently, I'm an independent software developer.</h1>
-      <h2 class="alt-header">Previously, I worked full-time as Product Sherpa on a product discovery app called</h2>
+      <h1 class="oddHeader">Currently, I'm an independent software developer.</h1>
+      <h3>Recent projects have included:
+        <ul>
+          <li>writing E2E tests with <a href="http://nightwatchjs.org/" target="_blank">Nightwatch.js</a> for an e-learning Angular app</li>
+          <li>running those E2E tests to verify that new domains were properly deployed.</li>
+          <li>because the client was uncomfortable with their LMS hosting service providers, those E2E tests ensured that over 100 domains were working as expected.</li>
+          <li>making that same e-learning app accessible to be compliant with banking industry standards.</li>
+          <li>contributing to updates and bug fixes in an Angular app</li>
+          <li>modernizing a Wordpress site and fixing a broken theme, so the client can go back to creating content</li>
+        </ul>
+      </h3>
+    </div>
+
+    <div class="previousExp container">
+      <h1 class="evenHeader">Previously, I worked full-time as Product Sherpa on a product discovery app called</h1>
       <img class="logos" src="app/assets/images/cardboard.png">
-      <h1 class="alt-header">Looking for a full-time home.</h1>
+      <h1>There, I wrote blog posts</h1>
     </div>
 
     <div class="experience container">
 
-      <h1 class="evenHeader alt-header">I have experince in these types of tech and tools</h1>
+      <h1 class="oddHeader alt-header">I have experince in these types of tech and tools</h1>
 
       <div class="techLogos">
         <div class="row1">
@@ -75,27 +88,22 @@
       <h1 class="evenHeader alt-header">If I sound like a good fit, reach out.</h1>
       <div class="contactContent">
         <h2 class="alt-header"><a href="mailto:arooks@hawaii.edu?subject=Yo,%20Austin" target="_blank">Email me</a></h2>
-        <h2 class="alt-header" id="resume"><a href="#">Check out my resume</a></h2>
+        <h2 class="alt-header" id="resume"><a href="app/assets/AustinRooks.pdf" target="_blank">Check out my resume</a></h2>
         <a href="mailto:arooks@hawaii.edu?subject=Yo,%20Austin" title="Email me" target="_blank"><img id="email" src="app/assets/images/emailMe.gif" alt="email me"></a>
         <h1 class="alt-header">OR</h1>
-        <a href="#"><img id="resumeImage" src="app/assets/images/resume.png"></a>
+        <a href="app/assets/AustinRooks.pdf" target="_blank"><img id="resumeImage" src="app/assets/images/resume.png"></a>
       </div>
     </div>
 
     <footer>
-        <p>&#169; 2017 austin rooks. Icons made by <a href="http://www.freepik.com/" target="_blank">Freepik</a> and <a href="http://www.flaticon.com/authors/wissawa-khamsriwath">Wissawa Khamsriwath</a> from <a href="www.flaticon.com">www.flaticon.com</a></p>
+      <p>
+        <a href="https://github.com/Austionian/Austionian.github.io" target="_blank">check out the source code for this website on GitHub</a>
+        <br>
+        &#169; <script src="app/Components/Footer/Footer.js"></script> austin rooks. Icons made by
+        <a href="http://www.freepik.com/" target="_blank">Freepik</a> and
+        <a href="http://www.flaticon.com/authors/wissawa-khamsriwath">Wissawa Khamsriwath</a> from
+        <a href="www.flaticon.com">www.flaticon.com</a>
+      </p>
     </footer>
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script src="https://github.com/kswedberg/jquery-smooth-scroll/blob/master/jquery.smooth-scroll.min.js"></script>
-    <script>
-    $('.smooth').on('click', function() {
-        $.smoothScroll({
-            scrollElement: $('body'),
-            scrollTarget: '#' + this.id
-        });
-
-        return false;
-    });
-    </script> -->
   </body>
 </html>
