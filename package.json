@@ -1,0 +1,19 @@
+{
+  "name": "austinrooks.com",
+  "version": "0.1.0",
+  "description": "personal website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Austionian/Austionian.github.io.git"
+  },
+  "author": "austin rooks",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Austionian/Austionian.github.io/issues"
+  },
+  "homepage": "https://github.com/Austionian/Austionian.github.io#readme"
+}
