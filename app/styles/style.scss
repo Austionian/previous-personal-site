@@ -90,21 +90,21 @@ a {
   background-color: white;
   z-index: 10;
   border-bottom: 1px solid black;
-}
 
-.nav ul {
-  display: inline;
-  float: right;
-  padding-right: 50px;
-}
+  ul {
+    display: inline;
+    float: right;
+    padding-right: 50px;
+  }
 
-.nav li {
-  display: inline;
-  padding: 5px 10px;
-}
+  li {
+    display: inline;
+    padding: 5px 10px;
+  }
 
-.nav img {
-  max-height: 32px;
+  .img {
+    max-height: 32px;
+  }
 }
 
 .intro {
@@ -113,17 +113,20 @@ a {
   display: -webkit-box;
 }
 
-.image img {
-  padding-left: 300px;
-  max-height: 535px;
-  height: auto;
-  width: auto;
-}
+.image {
 
-.image h1 {
-  float: right;
-  padding-top: 50px;
-  padding-left: 60px;
+  img {
+    padding-left: 300px;
+    max-height: 535px;
+    height: auto;
+    width: auto;
+  }
+
+  h1 {
+    float: right;
+    padding-top: 50px;
+    padding-left: 60px;
+  }
 }
 
 .smaller {
@@ -137,30 +140,25 @@ a {
 
 .career {
   background-color: #B2AE3B;
-}
 
-.career h1 {
-  padding-bottom: 0px;
-}
+  h1 {
+    padding-bottom: 0px;
+  }
 
-.career h3 {
-  padding-right: 75px;
-  padding-left: 75px;
-  float: left;
-}
+  h3 {
+    padding-right: 75px;
+    padding-left: 75px;
+    float: left;
+  }
 
-.career li {
-  padding: 5px;
+  li {
+    padding: 5px;
+  }
 }
 
 .previousExp {
   background-color: #8DBFB1;
   margin-top: 21.44px;
-}
-
-.column img {
-  max-height: 150px;
-  padding-left: 50px;
 }
 
 .head {
@@ -174,14 +172,19 @@ a {
   padding-left: 50px;
   width: 250px;
   text-align: center;
-}
 
-.column h1 {
-  padding-left: 25px;
-}
+  h1 {
+    padding-left: 25px;
+  }
 
-.column h2 {
-  padding-left: 25px;
+  h2 {
+    padding-left: 25px;
+  }
+
+  img {
+    max-height: 150px;
+    padding-left: 50px;
+  }
 }
 
 .experience {
@@ -191,35 +194,38 @@ a {
 
 .personal {
   background-color: #3286B2;
-}
 
-.personal img {
-  max-height: 150px;
-  padding-left: 50px;
+  img {
+    max-height: 150px;
+    padding-left: 50px;
+  }
 }
 
 .contact {
   background-color: #FFFB6E;
   margin-bottom: 30px;
+
+  h1 {
+    padding-bottom: 0px;
+  }
 }
 
-.contact h1 {
-  padding-bottom: 0px;
-}
+.contactContent {
 
-.contactContent h2 {
-  font-family: 'Barrio', cursive;
-  font-weight: 400;
-  padding-left: 310px;
-  display: inline;
-  float: left;
-}
+  h1 {
+    float: left;
+    padding-top: 50px;
+    padding-left: 120px;
+    font-size: 40px;
+  }
 
-.contactContent h1 {
-  float: left;
-  padding-top: 50px;
-  padding-left: 120px;
-  font-size: 40px;
+  h2 {
+    font-family: 'Barrio', cursive;
+    font-weight: 400;
+    padding-left: 310px;
+    display: inline;
+    float: left;
+  }
 }
 
 .contact h3 {
