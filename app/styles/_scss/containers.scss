@@ -1,0 +1,232 @@
+.alt-header {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.container {
+  height: 550px;
+}
+
+.evenHeader {
+  padding-top: 60px;
+  padding-left: 150px;
+  padding-bottom: 35px;
+}
+
+.oddHeader {
+  text-align: right;
+  padding-top: 60px;
+  padding-right: 150px;
+  padding-bottom: 35px;
+}
+
+.logos {
+  max-height: 125px;
+  padding: 10px 15px;
+}
+
+.exLogos {
+  border: 1px solid rgba(10, 10, 10, 0.0);
+  transition: transform 100ms;
+
+  &:hover {
+    border: 1px solid rgba(10, 10, 10, .2);
+    box-shadow: 0 2px 2px 0 #d5dadd;
+    position: relative;
+    background-color: rgba(225, 225, 225, .2);
+    z-index: 2;
+    transform: scale(1.125);
+  }
+}
+
+.row1 {
+  padding-left: 55px;
+  padding-bottom: 20px;
+}
+
+.row2 {
+  padding-left: 160px;
+}
+
+.intro {
+  background-color: #9B26AF;
+  padding-top: 60px;
+  display: -webkit-box;
+}
+
+.image {
+
+  img {
+    padding-left: 300px;
+    max-height: 535px;
+    height: auto;
+    width: auto;
+  }
+
+  h1 {
+    float: right;
+    padding-top: 50px;
+    padding-left: 60px;
+  }
+}
+
+.smaller {
+  font-size: 25px;
+  margin: 0px;
+}
+
+.writing {
+  background-color: #FF5462;
+}
+
+.career {
+  background-color: #B2AE3B;
+
+  h1 {
+    padding-bottom: 0px;
+  }
+
+  h3 {
+    padding-right: 75px;
+    padding-left: 75px;
+    float: left;
+  }
+
+  li {
+    padding: 5px;
+  }
+}
+
+.previousExp {
+  background-color: #8DBFB1;
+  margin-top: 21.44px;
+}
+
+.head {
+  padding-bottom: 10px;
+  width: 100%;
+  height: 200px;
+}
+
+.column {
+  float: left;
+  padding-left: 50px;
+  width: 250px;
+  text-align: center;
+
+  h1 {
+    padding-left: 25px;
+  }
+
+  h2 {
+    padding-left: 25px;
+  }
+
+  img {
+    max-height: 150px;
+    padding-left: 50px;
+  }
+}
+
+.experience {
+  background-color: rgba(110, 204, 225, 0.28);
+  padding-left: 20px;
+}
+
+.personal {
+  background-color: #3286B2;
+
+  img {
+    max-height: 150px;
+    padding-left: 50px;
+  }
+}
+
+.contact {
+  background-color: #FFFB6E;
+  margin-bottom: 30px;
+
+  h1 {
+    padding-bottom: 0px;
+  }
+}
+
+.contactContent {
+
+  h1 {
+    float: left;
+    padding-top: 50px;
+    padding-left: 120px;
+    font-size: 40px;
+  }
+
+  h2 {
+    font-family: 'Barrio', cursive;
+    font-weight: 400;
+    padding-left: 310px;
+    display: inline;
+    float: left;
+  }
+}
+
+.contact h3 {
+  font-family: 'Barrio', cursive;
+  font-weight: 400;
+  float: left;
+  padding-left: 500px;
+}
+
+#hi {
+  padding-top: 20px;
+  font-size: 60px;
+  height: 40px;
+}
+
+#prose {
+  max-height: 250px;
+  padding-left: 175px;
+  width: auto;
+}
+
+#code {
+  max-height: 250px;
+  padding-left: 54px;
+  width: auto;
+}
+
+#mixpanel {
+  padding-bottom: 60px;
+  max-width: 125px;
+  padding-top: 45px;
+}
+
+#sherpa {
+  float: left;
+  width: 900px;
+}
+
+#cardboard {
+  float: left;
+  padding-top: 70px;
+}
+
+#email {
+  max-height: 275px;
+  padding-left: 200px;
+  float: left;
+}
+
+#resume {
+  float: left;
+  padding-left: 395px;
+}
+
+#resumeImage {
+  max-height: 275px;
+  float: left;
+  padding-left: 150px;
+}
+
+#e-learning {
+  max-height: 200px;
+  float: right;
+}
