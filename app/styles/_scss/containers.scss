@@ -1,3 +1,5 @@
+$font-family: 'Barrio', cursive, sans-serif;
+
 .alt-header {
   color: rgba(0, 0, 0, 0.87);
 }
@@ -160,7 +162,7 @@
   }
 
   h2 {
-    font-family: 'Barrio', cursive;
+    font-family: $font-family;
     font-weight: 400;
     padding-left: 310px;
     display: inline;
@@ -227,6 +229,8 @@
 }
 
 #e-learning {
+  padding-bottom: 30px;
+  padding-left: 50px;
   max-height: 200px;
   float: right;
 }
