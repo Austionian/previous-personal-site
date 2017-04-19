@@ -1,27 +1,66 @@
+@mixin breakpoint($point) {
+   @if $point == desktop {
+     @media (min-width: 70em) { @content ; }
+  }
+   @else if $point == laptop {
+     @media (min-width: 64em) { @content ; }
+  }
+    @else if $point == tablet {
+     @media (min-width: 50em) { @content ; }
+  }
+   @else if $point == phablet {
+     @media (min-width: 37.5em)  { @content ; }
+  }
+  @else if $point == mobileonly {
+     @media (max-width: 37.5em)  { @content ; }
+  }
+}
+
 .alt-header {
   color: rgba(0, 0, 0, 0.87);
 }
 
 .container {
-  height: 550px;
+  height: 200px;
+
+  @include breakpoint(laptop) {
+	    height: 550px;
+    }
 }
 
 .evenHeader {
-  padding-top: 60px;
-  padding-left: 150px;
-  padding-bottom: 35px;
+  padding-top: 22px;
+  padding-left: 55px;
+  padding-bottom: 13px;
+
+  @include breakpoint(laptop) {
+    padding-top: 60px;
+    padding-left: 150px;
+    padding-bottom: 35px;
+  }
 }
 
 .oddHeader {
   text-align: right;
-  padding-top: 60px;
-  padding-right: 150px;
-  padding-bottom: 35px;
+  padding-top: 22px;
+  padding-right: 55px;
+  padding-bottom: 13px;
+
+  @include breakpoint(laptop) {
+    padding-top: 60px;
+    padding-right: 150px;
+    padding-bottom: 35px;
+  }
 }
 
 .logos {
-  max-height: 125px;
-  padding: 10px 15px;
+  max-height: 45px;
+  padding: 4px 6px;
+
+  @include breakpoint(laptop) {
+    max-height: 125px;
+    padding: 10px 15px;
+  }
 }
 
 // .exLogos {
@@ -39,8 +78,13 @@
 // }
 
 .row1 {
-  padding-left: 55px;
-  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-bottom: 7px;
+
+  @include breakpoint(laptop) {
+    padding-left: 55px;
+    padding-bottom: 20px;
+  }
 }
 
 .row2 {
@@ -58,10 +102,15 @@
   z-index: 1;
 
   img {
-    padding-left: 300px;
-    max-height: 535px;
+    padding-left: 109px;
+    max-height: 195px;
     height: auto;
     width: auto;
+
+    @include breakpoint(laptop) {
+      padding-left: 300px;
+      max-height: 535px;
+    }
   }
 
   h1 {
@@ -180,12 +229,19 @@
 }
 
 #hi {
-  padding-left: 650px;
+  padding-left: 236px;
+  padding-top: 7px;
+  font-size: 25px;
+  height: 15px;
   position: absolute;
-  padding-top: 20px;
-  font-size: 70px;
-  height: 40px;
   z-index: 1;
+
+  @include breakpoint(laptop) {
+    padding-left: 650px;
+    padding-top: 20px;
+    font-size: 70px;
+    height: 40px;
+  }
 }
 
 #prose {
