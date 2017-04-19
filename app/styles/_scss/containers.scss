@@ -21,7 +21,7 @@
 }
 
 .container {
-  height: 200px;
+  height: 1100px;
 
   @include breakpoint(laptop) {
 	    height: 550px;
@@ -29,9 +29,9 @@
 }
 
 .evenHeader {
-  padding-top: 22px;
-  padding-left: 55px;
-  padding-bottom: 13px;
+  padding-top: 60px;
+  padding-left: 150px;
+  padding-bottom: 35px;
 
   @include breakpoint(laptop) {
     padding-top: 60px;
@@ -42,9 +42,9 @@
 
 .oddHeader {
   text-align: right;
-  padding-top: 22px;
-  padding-right: 55px;
-  padding-bottom: 13px;
+  padding-top: 60px;
+  padding-right: 150px;
+  padding-bottom: 35px;
 
   @include breakpoint(laptop) {
     padding-top: 60px;
@@ -54,8 +54,8 @@
 }
 
 .logos {
-  max-height: 45px;
-  padding: 4px 6px;
+  max-height: 125px;
+  padding: 10px 15px;
 
   @include breakpoint(laptop) {
     max-height: 125px;
@@ -102,8 +102,8 @@
   z-index: 1;
 
   img {
-    padding-left: 109px;
-    max-height: 195px;
+    padding-left: 175px;
+    max-height: 700px;
     height: auto;
     width: auto;
 
