@@ -158,7 +158,7 @@
   h3 {
     padding-right: 75px;
     padding-left: 75px;
-    font-size: 40px;
+    font-size: 30px;
     float: left;
 
     @include breakpoint(laptop) {
@@ -194,6 +194,11 @@
 
   h2 {
     padding-left: 25px;
+    font-size: 25px;
+
+    @include breakpoint(laptop) {
+      font-size: 1.5em;
+    }
   }
 
   img {
