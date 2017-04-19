@@ -30,32 +30,36 @@
 
 .evenHeader {
   padding-top: 60px;
-  padding-left: 150px;
+  padding-left: 50px;
   padding-bottom: 35px;
 
   @include breakpoint(laptop) {
-    padding-top: 60px;
     padding-left: 150px;
-    padding-bottom: 35px;
   }
 }
 
 .oddHeader {
   text-align: right;
   padding-top: 60px;
-  padding-right: 150px;
+  padding-right: 50px;
   padding-bottom: 35px;
 
   @include breakpoint(laptop) {
-    padding-top: 60px;
     padding-right: 150px;
-    padding-bottom: 35px;
+  }
+}
+
+.header {
+  font-size: 3.25em;
+
+  @include breakpoint(laptop) {
+    font-size: 2em;
   }
 }
 
 .logos {
-  max-height: 125px;
-  padding: 10px 15px;
+  max-height: 200px;
+  padding: 5px 10px;
 
   @include breakpoint(laptop) {
     max-height: 125px;
@@ -88,12 +92,16 @@
 }
 
 .row2 {
-  padding-left: 160px;
+  padding-left: 20px;
+
+  @include breakpoint(laptop) {
+    padding-left: 160px;
+  }
 }
 
 .intro {
   background-color: #9B26AF;
-  padding-top: 60px;
+  padding-top: 100px;
   display: block;
 }
 
@@ -102,23 +110,32 @@
   z-index: 1;
 
   img {
-    padding-left: 175px;
-    max-height: 700px;
+    padding-left: 125px;
+    padding-top: 110px;
     height: auto;
     width: auto;
 
     @include breakpoint(laptop) {
       padding-left: 300px;
       max-height: 535px;
+      padding-top: 0px;
     }
   }
 
   h1 {
-    padding-left: 760px;
-    padding-top: 175px;
-    font-size: 40px;
+    padding-left: 275px;
+    padding-top: 775px;
+    font-size: 60px;
     float: right;
     z-index: 1;
+
+    @include breakpoint(laptop) {
+      padding-left: 760px;
+      padding-top: 175px;
+      font-size: 40px;
+      float: right;
+      z-index: 1;
+    }
   }
 }
 
@@ -175,8 +192,24 @@
   }
 
   img {
-    max-height: 150px;
-    padding-left: 50px;
+    padding-left: 25px;
+    max-height: 210px;
+
+    @include breakpoint(laptop) {
+      padding-left: 50px;
+      max-height: 150px;
+    }
+  }
+
+  &.resourceful,
+  &.analytics,
+  &.learning,
+  &.testing {
+    padding-left: 200px;
+
+    @include breakpoint(laptop) {
+      padding-left: 50px;
+    }
   }
 }
 
@@ -189,8 +222,11 @@
   background-color: #3286B2;
 
   img {
-    max-height: 150px;
     padding-left: 50px;
+
+    @include breakpoint(laptop) {
+      max-height: 150px;
+    }
   }
 }
 
@@ -229,10 +265,10 @@
 }
 
 #hi {
-  padding-left: 236px;
-  padding-top: 7px;
-  font-size: 25px;
-  height: 15px;
+  padding-left: 650px;
+  padding-top: 200px;
+  font-size: 90px;
+  height: 40px;
   position: absolute;
   z-index: 1;
 
@@ -245,15 +281,20 @@
 }
 
 #prose {
-  max-height: 250px;
-  padding-left: 175px;
+  padding-left: 200px;
+  max-width: 583px;
   width: auto;
 }
 
 #code {
-  max-height: 250px;
-  padding-left: 54px;
+  padding-left: 200px;
+  padding-top: 50px;
   width: auto;
+
+  @include breakpoint(laptop) {
+    padding-left: 54px;
+    padding-top: 0px;
+  }
 }
 
 #mixpanel {
@@ -263,8 +304,13 @@
 }
 
 #sherpa {
-  float: left;
   width: 900px;
+  float: left;
+  padding-bottom: 20px;
+
+  @include breakpoint(laptop) {
+    padding-bottom: 35px;
+  }
 }
 
 #cardboard {
