@@ -158,7 +158,12 @@
   h3 {
     padding-right: 75px;
     padding-left: 75px;
+    font-size: 40px;
     float: left;
+
+    @include breakpoint(laptop) {
+      font-size: 1.17em;
+    }
   }
 
   li {
