@@ -88,8 +88,23 @@ a {
   img {
     max-height: 64px;
 
+    &:hover {
+      transform: scale(1.25);
+      position: relative;
+      border: none;
+      z-index: 2;
+    }
+
     @include breakpoint(laptop) {
       max-height: 32px;
+    }
+  }
+
+  a {
+    border: none;
+
+    &:hover {
+      border: none;
     }
   }
 }
