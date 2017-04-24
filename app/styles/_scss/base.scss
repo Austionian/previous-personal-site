@@ -99,14 +99,6 @@ a {
       max-height: 32px;
     }
   }
-
-  a {
-    border: none;
-
-    &:hover {
-      border: none;
-    }
-  }
 }
 
 img {
@@ -124,6 +116,14 @@ footer p{
   height: 34px;
   color: white;
   margin: 0;
+}
+
+.alt-hover{
+  border: none;
+
+  &:hover {
+    border: none;
+  }
 }
 
 #bar {
