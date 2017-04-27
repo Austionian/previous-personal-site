@@ -88,15 +88,30 @@ a {
   img {
     max-height: 64px;
 
-    &:hover {
+    &:hover,
+    &:focus {
       transform: scale(1.25);
       position: relative;
       border: none;
       z-index: 2;
     }
 
+    &:visited {
+      text-decoration: none;
+      border: none;
+    }
+
     @include breakpoint(laptop) {
       max-height: 32px;
+    }
+  }
+
+  a {
+    &:visited,
+    &:hover,
+    &:focus {
+      text-decoration: none;
+      border: none;
     }
   }
 }
