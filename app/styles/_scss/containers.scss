@@ -30,6 +30,10 @@
   @include breakpoint(laptop) {
 	    height: 550px;
     }
+  
+  @include breakpoint(desktop) {
+    	    height: 560px;
+    }
 }
 
 .evenHeader {
